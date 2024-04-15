@@ -1,0 +1,62 @@
+h1{
+    color: #EEE7DA;
+    font-family: 'Copperplate', Papyrus, fantasy;
+    font-size: 500%;
+    font-weight: 50;
+}
+#name{
+    position: relative;
+    left: 10%;
+    margin-top: 25%;
+    height: 100px;
+}
+#home_animation{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.container{
+    display: inline-block;
+    position: relative;
+    left: 11%;
+}
+.explore{
+    font-size: 200%;
+    position: relative;
+    left:11%;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:link,a:visited {
+    color:antiquewhite;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.typed_out{
+    font-size: 200%;
+    font-family: 'Cooperplate', Papyrus, fantasy;
+    font-weight: 100;
+    letter-spacing: 5px;
+    width: 100%;
+    color: #F2F1EB;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(24),
+        cursor .8s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{border-color: transparent;}
+}
+@keyframes typing{
+    from{width: 0;}
+}
